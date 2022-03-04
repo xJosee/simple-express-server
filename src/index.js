@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-    res.send('<h1>Software Avanzado - Tarea Práctica 5 - 201807431 - José Luis Herrera</h1>');
+    res.json({ message: "Software Avanzado - Tarea Práctica 5 - 201807431 - José Luis Herrera" });
 });
 
 app.listen(PORT, () => {
